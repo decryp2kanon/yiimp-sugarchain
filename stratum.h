@@ -199,7 +199,6 @@ void sha256_double_hash_hex(const char *input, char *output, unsigned int len);
 #include "algos/whirlpool.h"
 #include "algos/whirlpoolx.h"
 #include "algos/skein2.h"
-#include "algos/yescrypt.h"
 #include "algos/zr5.h"
 #include "algos/hive.h"
 #include "algos/sib.h"
@@ -217,3 +216,4 @@ void sha256_double_hash_hex(const char *input, char *output, unsigned int len);
 #include "algos/hex.h"
 #include "algos/argon2d-dyn.h"
 #include "algos/exosis.h"
+#include "algos/yespower/yespower.h"
